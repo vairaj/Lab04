@@ -14,3 +14,8 @@ https://www.daniweb.com/programming/software-development/threads/1769/c-random-n
 <br>
 http://www.cplusplus.com/reference/algorithm/sort/
 <br>
+https://medium.com/the-renaissance-developer/c-standard-template-library-stl-vector-a-pretty-simple-guide-d2b64184d50b
+<br>
+https://www.geeksforgeeks.org/sorting-a-vector-in-c/
+<br>
+https://www.daniweb.com/programming/software-development/threads/1769/c-random-numbers
