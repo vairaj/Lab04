@@ -10,3 +10,5 @@ https://en.cppreference.com/w/cpp/container/vector/push_back
 https://msdn.microsoft.com/en-us/library/bb385313.aspx
 <!-yo I think this is the .net thing we were told to look up in part 1 ->
 <br>
+https://www.daniweb.com/programming/software-development/threads/1769/c-random-numbers
+<br>
