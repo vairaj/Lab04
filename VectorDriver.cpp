@@ -65,13 +65,22 @@ int main() {
 
 	//new vector for testing sort on
 	vector<short> test_vector2(5);
+	test_vector2[0] = 4;
+	test_vector2[1] = 66;
+	test_vector2[2] = 4;
+	test_vector2[3] = 2;
+	test_vector2[4] = 6;
+
 
 	//testing sort
 	cout << endl << "Testing std::sort on ";
 	print(test_vector2);
 	cout << endl << "Sorted vector: ";
-	
+	sort(test_vector2.begin(),test_vector2.end());
+	print(test_vector2);	//how I'm testing to see if sort worked. It did.
 	cout << endl;
+
+
 
 	cout << endl << endl << " End of Working Code" << endl << endl;
 
