@@ -14,6 +14,7 @@ typedef unsigned long ulong;
 
 #include <iostream>
 #include <vector>
+#include <cstdlib> //so we can generate psuedo-random numbers :)
 
 using std::cout;
 using std::endl;
@@ -54,8 +55,13 @@ short compute_sum(const vector<short> &data) {
 }
 
 // TODO: implement add_numbers
-void add_numbers(vector<short> &data) {
-
+void add_numbers(vector<short> &data)
+{
+	for (ulong i = 0; i<data.size(); i++) 
+	{
+		short ran_num = rand();
+		data.at(i) = ran_num;
+	}
 }
 // TODO: implement print_even
 // TODO: implement is_present
