@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "VectorDriver.h"
 
 int main() {
