@@ -19,6 +19,8 @@ int main() {
 	cout << "sum of vector's elements: " << compute_sum(sample_vector) << endl;
 	cout << endl << "   ..::  E N D   S A M P L E  C O D E  ::.." << endl;
 
+	//my code
+
 	cout << "  Working Code:" << endl << endl;
 
 	vector<short> test_vector(10);
@@ -31,7 +33,14 @@ int main() {
 	cout << endl << "filled vector: ";
 	print(test_vector);
 
+	cout << endl << "What happens if we call add_numbers twice: ";
+	add_numbers(test_vector);
+	add_numbers(test_vector);
+	print(test_vector);
+
 	cout << endl << endl << " End of Working Code" << endl << endl;
+
+	//end of my code
 
 
 	system("pause");
