@@ -12,3 +12,5 @@ https://msdn.microsoft.com/en-us/library/bb385313.aspx
 <br>
 https://www.daniweb.com/programming/software-development/threads/1769/c-random-numbers
 <br>
+http://www.cplusplus.com/reference/algorithm/sort/
+<br>
