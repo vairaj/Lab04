@@ -80,4 +80,19 @@ void print_even(const vector<short> &data) {
 	}
 }
 // TODO: implement is_present
+bool is_present(const vector<short> &data, short item) {
+	std::vector<short>::const_iterator iter = data.begin();
+	bool found_it = false;
+	while (iter != data.end()) {
+		if (*iter == item)
+		{
+			found_it = true;
+			cout << found_it;
+			goto found; //goto is lazy, but so am I
+		}
+		iter++;
+	}
+	found: ;
+	return found_it;
+}
 // TODO: implement std::sort function

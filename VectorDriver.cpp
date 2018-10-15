@@ -42,6 +42,11 @@ int main() {
 
 	cout << endl << "Testing print_even function: ";
 	print_even(test_vector);
+	cout << endl;
+
+	cout << endl << "Testing is_present function: ";
+	is_present(sample_vector, 3);
+	cout << endl;
 
 	cout << endl << endl << " End of Working Code" << endl << endl;
 
