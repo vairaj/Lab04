@@ -32,11 +32,16 @@ int main() {
 	add_numbers(test_vector);
 	cout << endl << "filled vector: ";
 	print(test_vector);
+	cout << endl;
 
 	cout << endl << "What happens if we call add_numbers twice: ";
 	add_numbers(test_vector);
 	add_numbers(test_vector);
 	print(test_vector);
+	cout << endl;
+
+	cout << endl << "Testing print_even function: ";
+	print_even(test_vector);
 
 	cout << endl << endl << " End of Working Code" << endl << endl;
 

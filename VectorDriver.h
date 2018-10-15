@@ -64,5 +64,20 @@ void add_numbers(vector<short> &data)
 	}
 }
 // TODO: implement print_even
+void print_even(const vector<short> &data) {
+	if (data.empty()) {
+		cout << "<empty>";
+	}
+	else {
+		cout << "<" << data.at(0);
+		for (ulong i = 1; i<data.size(); i++) {
+			if (i % 2 == 0)
+			{
+				cout << ", " << data.at(i);
+			}
+		}
+		cout << ">";
+	}
+}
 // TODO: implement is_present
 // TODO: implement std::sort function
