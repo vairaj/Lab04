@@ -18,6 +18,22 @@ int main() {
 
 	cout << "sum of vector's elements: " << compute_sum(sample_vector) << endl;
 	cout << endl << "   ..::  E N D   S A M P L E  C O D E  ::.." << endl;
+
+	cout << "  Working Code:" << endl << endl;
+
+	vector<short> test_vector(10);
+	cout << "New vector: ";
+	print(test_vector);
+	cout << endl;
+
+	cout << "Testing add_numbers function: ";
+	add_numbers(test_vector);
+	cout << endl << "filled vector: ";
+	print(test_vector);
+
+	cout << endl << endl << " End of Working Code" << endl << endl;
+
+
 	system("pause");
 	return 0;
 }
