@@ -5,6 +5,7 @@ int main() {
 	cout << "  ..:: B E G I N  S A M P L E  C O D E  ::.." << endl << endl;
 	vector<short> sample_vector(5);
 
+
 	cout << "new vector: ";
 	print(sample_vector);
 	cout << endl;

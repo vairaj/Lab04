@@ -54,6 +54,9 @@ short compute_sum(const vector<short> &data) {
 }
 
 // TODO: implement add_numbers
+void add_numbers(vector<short> &data) {
+
+}
 // TODO: implement print_even
 // TODO: implement is_present
 // TODO: implement std::sort function
