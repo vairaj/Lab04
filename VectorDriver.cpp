@@ -44,7 +44,10 @@ int main() {
 	print_even(test_vector);
 	cout << endl;
 
-	cout << endl << "Testing is_present function: ";
+	cout << endl << "Testing is_present function (0 for false, 1 for true): ";
+	cout << endl << "Is 3 present in ";
+	print(sample_vector);
+	cout << "? " << endl;
 	is_present(sample_vector, 3);
 	cout << endl;
 
